@@ -8,6 +8,7 @@
 header {
     background-color: #51649C;
     box-shadow: 0px 3px 10px #464646;
+    width: 100%;
 }
 
 .nav-bar {
@@ -147,9 +148,3 @@ body {
 
 }
 
-.imagens_patrocinios img{
-    width: 400px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-}
