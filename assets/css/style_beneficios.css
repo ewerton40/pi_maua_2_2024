@@ -1,0 +1,24 @@
+.titulo {
+    background-color: lightgrey;
+}
+
+.titulo p{
+ font-size: 22px;
+ color: #4E64A6;
+}
+
+.borda   {
+    border-color: #4E64A6;
+    color: #4E64A6;
+
+    border-bottom-color:#4E64A6 ;
+}
+
+.borda {
+    border-bottom: 2px solid #4E64A6;
+    color: #4E64A6;
+}
+
+#carrosel {
+    background-image: url('/assets/img/fundo.png');
+}
