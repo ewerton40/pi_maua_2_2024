@@ -157,3 +157,18 @@ header {
 .img_1 {
     margin-right: 50%;
 }
+
+
+
+.cor_borda {
+    border-color: #4E64A6;
+    color: #4E64A6;
+    border-bottom-color:#4E64A6 ;
+
+}
+
+.nav-list a {
+    color: #fff;
+    font-size: 21px;
+    }
+
