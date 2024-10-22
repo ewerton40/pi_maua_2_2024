@@ -185,6 +185,7 @@ header {
     border: 30px solid #F2BB13;
     min-width: 250px;
     align-items: center;
+    border-radius: 20px;
 }
 
 .back_color {
