@@ -126,7 +126,7 @@ font-size: 20px;
 }
 
 html body {
-    background-color: #ECECEC;
+    background-color: #eeecec;
 }
 
 .borda {
@@ -135,19 +135,78 @@ html body {
 }
 
 #box_equipe {
-    background-color: #F2BB13;
+    background-color: #789AFF;
     padding: 10px;
     text-align: center;
     border-radius: 20px;
     align-content: start;
+    font-weight: 900;
+    color: #000000;
 }
 
 #box_equipe2 {
-    background-color: #F2BB13;
+    background-color: #FE9700;
     padding: 10px;
     text-align: center;
     border-radius: 20px;
     align-content: start;
-    width: 920px;
+    font-weight: 900;
+    color: #000000;
 }
 
+#box_equipe3 {
+    background-color: #F2E41D;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    align-content: start;
+    font-weight: 900;
+    color: #000000;
+}
+
+#box_equipe4 {
+    background-color: #F24607;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    align-content: start;
+    font-weight: 900;
+    color: #000000;
+}
+
+#box_equipe5 {
+    background-color: #D94E41;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    align-content: start;
+    font-weight: 900;
+    color: #000000;
+}
+
+#box_equipe6 {
+    background-color: #FE9700;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    align-content: start;
+    font-weight: 900;
+    color: #000000;
+}
+
+footer {
+    background-color: #4E64A6;
+}
+
+#rodape {
+    background-color: #4E64A6;
+    height: 100px;
+}
+
+.email_texto {
+    color: white;
+}
+
+.img_insta {
+    height: 100px;
+}
