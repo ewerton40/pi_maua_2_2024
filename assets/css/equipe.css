@@ -130,8 +130,8 @@ html body {
 }
 
 .borda {
-    border-bottom: 2px solid #4E64A6;
-    color: #4E64A6;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.782);
+    color: rgba(252, 252, 252, 0.847);
 }
 
 #box_equipe {
@@ -209,4 +209,12 @@ footer {
 
 .img_insta {
     height: 100px;
+}
+
+#fundo_como {
+    background-image: url('/assets/img/image\ 36.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 250px;
 }
