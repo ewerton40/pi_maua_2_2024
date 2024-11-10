@@ -169,7 +169,21 @@ header {
 }
 
 .bordas_jogos {
-    border: lightgray 2px solid;
+    border: black 5px solid;
     border-radius: 10px;
     width: 400px;
+}
+
+.legenda_jogos{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.imagens {
+    width: 350px;
+}
+
+body {
+    background-image: url('/assets/img/fundo.png');
 }
