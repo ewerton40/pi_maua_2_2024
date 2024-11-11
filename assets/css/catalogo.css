@@ -1,0 +1,25 @@
+.adugo_fonte {
+    font-family:'Luckiest Guy';
+    font-weight:'bold';
+    font-size: 40px;
+}
+body {
+    background-color: #FFB676;
+}
+
+.blue-box {
+    background-color: #6684E8;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    align-content: start;
+}
+
+.imagem {
+    width: 463px;
+    object-fit: cover;
+}
+
+.legenda {
+    font-weight: bold;
+}

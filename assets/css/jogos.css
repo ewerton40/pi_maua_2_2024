@@ -180,10 +180,6 @@ header {
     font-size: large;
 }
 
-.imagens {
-    width: 350px;
-}
-
 body {
     background-image: url('/assets/img/fundo.png');
 }
