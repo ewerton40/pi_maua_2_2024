@@ -1,4 +1,4 @@
-.adugo_fonte {
+.catalogo_titulo {
     font-family:'Luckiest Guy';
     font-weight:'bold';
     font-size: 40px;
@@ -22,4 +22,11 @@ body {
 
 .legenda {
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 850px;
+    margin: 0 auto;
+    font-size: 17px;
+    font-family: 'Ubuntu';
 }
