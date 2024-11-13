@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
 
+
+
 * {
     padding: 0;
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
+
+
 
 header {
     background-color: #51649C;
@@ -136,3 +140,15 @@ header {
 }
 
 
+.bordadoe {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.782);
+    color: rgba(252, 252, 252, 0.847);
+}
+
+#fundo_contato{
+    background-image: url('/assets/img/background_doe_agora.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center  ;
+    height: 250px;
+}
