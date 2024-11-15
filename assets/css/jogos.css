@@ -159,6 +159,30 @@ header {
     font-size: 20px;
 }
 
+.barra_pesquisa {
+    margin-top: 50px;
+    margin-left: 625px;
+    /* background-color: #464646;
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px; */
+}
+
+
+.search-box {
+    position: static;
+    background-color: #464646;
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.search-btn {
+    display: inline;
+}
+
+
+
 .imagens {
     width: 100%; 
     height: auto; 
