@@ -79,49 +79,72 @@
 
         </div>
 
-        <div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
+        <div id="tabela-valores">
 
-                        
-                        
+            <div class="container-fluid ">
+
+                <div class="row">
+
+                    <div class="col-6 col-md-6 col-sm-12 p-4">
+                        <div class="caixa-valor-doacao">20 Reais = 2 jogos</div>
+                    </div>
+
+                    <div class="col-6 col-md-6 col-sm-12 p-4">
+                        <div class="caixa-valor-doacao">30 Reais = 3 jogos</div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-6 col-md-6 col-sm-12 p-4">
+                        <div class="caixa-valor-doacao">50 Reais = 5 jogos</div>
+                    </div>
+
+                    <div class="col-6 col-md-6 col-sm-12 p-4">
+                        <div class="caixa-valor-doacao">100 Reais = 10 jogos</div>
                     </div>
 
                 </div>
 
             </div>
-        </div>
 
-        <div class="container p-5">
-            <form action="">
-                <div class ='mb-3'>
-                    <label for="nome" class="form-label">Nome</label>
-                    <input type="text" id ='text' class="form-control form-control-plaintext" placeholder="Digite seu nome">
-                    <div></div>
-                </div>
-                <div class ='mb-3'>
-                    <label for="telefone" class = 'form-label'>Telefone</label>
-                    <input type="text" class = 'form-control form-control-plaintext' placeholder="+55 (XX) XXXXX-XXXX">
-                    <div></div>
-                </div>
-                <div class ='mb-3'>
-                    <label for="email" class = 'form-label'>Email</label>
-                    <input type="email" class="form-control form-control-plaintext" placeholder="Digite seu email">
-                    <div></div>
-                </div>
-                <div class ='mb-3'>
-                    <label for="mensagem" class ='form-label'>Mensagem</label>
-                    <input type="text" class="form-control ">
-                    <div></div>
-                </div>
-                <button type='submit' class="btn btn-primary">Entrar</button>
-            </form>
         </div>
-    
+        <div class="container-fluid" id="form-background">
+            <div class="form-section">
+                <h2>Entre em Contato</h2>
+                <form>
+                  <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="example@gmail.com" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="telefone" class="form-label">Telefone</label>
+                    <input type="tel" class="form-control" id="telefone" placeholder="(XX)XXXX-XXXXX" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="mensagem" rows="4" placeholder="Digite sua mensagem" required></textarea>
+                  </div>
+                  <div class="d-grid">
+                    <button type="submit" class="btn btn-enviar">Enviar</button>
+                  </div>
+                </form>
+            </div>>
+
+        </div>
+        
 
 
     </main>
+
+    <footer>
+       
+    </footer>
     
     
 

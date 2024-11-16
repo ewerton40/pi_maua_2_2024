@@ -152,3 +152,63 @@ header {
     background-position: center center  ;
     height: 250px;
 }
+
+.caixa-valor-doacao{
+    border: 2px solid #6787E7; /* Borda laranja */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    font-size: 1.2rem; /* Tamanho do texto */
+    border-radius: 30px; /* Borda arredondada */
+    background-color: #EEEEEE; /* Fundo claro */
+    margin: 10px 0; /* Espaço entre os quadrados */
+    color: #FE9700;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.421);
+    transition: all 0.3s ease-in-out; /* Animação suave */
+    
+}
+
+#tabela-valores{
+    background-color: #EEEEEE;
+    height:fit-content
+}
+
+.caixa-valor-doacao:hover {
+    border-color: #ff4500; /* Destaca a borda com laranja forte */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho */
+}
+
+.form-section {
+    background-color: #fff; /* Fundo claro */
+    padding: 30px; /* Espaçamento interno */
+    border-radius: 20px; /* Borda arredondada */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.477); /* Sombra suave */
+    max-width: 600px; /* Limita a largura máxima */
+    margin: auto; /* Centraliza o formulário */
+    
+
+}
+
+.form-section h2 {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    color: #6787E7; /* Cor do título */
+}
+
+.btn-enviar {
+    background-color: #6787E7; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    border: none;
+    transition: all 0.3s ease-in-out; /* Animação suave */
+}
+
+.btn-enviar:hover {
+    background-color: #ff4500; /* Cor do botão ao passar o mouse */
+    transform: scale(1.05); /* Efeito de leve aumento */
+}
+
+#form-background{
+    background-color: #EEEEEE;
+    
+
+}
